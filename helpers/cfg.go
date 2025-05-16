@@ -2,6 +2,6 @@ package helpers
 
 import "fmt"
 
-func PrintConfig() {
-	fmt.Println("Config:")
+func PrintConfig(confing string) {
+	fmt.Printf("Config: %s", confing)
 }
